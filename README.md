@@ -1,6 +1,6 @@
 # MAST90109-Dyadic-C2LSH
 # Here is the code for Dyadic C2LSH Algorithm
-
+# CODE is all in HA_sim.py
 ## Introduction
 This project implements a variation of the **C2LSH (Collision Counting Locality Sensitive Hashing)** algorithm for efficient nearest neighbor search. It incorporates heuristics to optimize the merging of **dyadic trees** based on collision data. The project includes functions for dataset generation, collision counting, dyadic tree construction, and heuristic-based optimizations.
 

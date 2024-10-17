@@ -766,7 +766,7 @@ class Config:
         self.R = 1
         self.C = 3
         self.W = 1.0
-        self.D = 10
+        self.D = 1000
 
         self.RATE_GOOD_PTS = 0.02
         self.RATE_BAD_PTS = 0.6
@@ -790,7 +790,7 @@ class Config:
 
 def compare_algorithms(config):
     RATE_GOOD_PTS_values = [0.001, 0.005, 0.01 ,0.05, 0.1 ,0.3]
-    num_queries = 3  # Run 3 queries for each configuration and take the average
+    num_queries = 10  # Run 3 queries for each configuration and take the average
     algorithms = ["C2LSH******", "Heuristic 1", "Heuristic 2", "Heuristic 3"]
     
     results = {}
